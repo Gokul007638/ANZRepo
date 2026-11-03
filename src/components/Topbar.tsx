@@ -22,7 +22,7 @@ interface TopbarProps {
   onMenuClick: () => void;
 }
 
-function Topbar({ onMenuClick }: TopbarProps) {
+function TopBar({ onMenuClick }: TopbarProps) {
   const theme = useTheme();
 
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
@@ -273,4 +273,4 @@ function Topbar({ onMenuClick }: TopbarProps) {
   );
 }
 
-export default Topbar;
+export default TopBar;
