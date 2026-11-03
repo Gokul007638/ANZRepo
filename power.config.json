@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "appId": "69d86486-242a-47ff-a25a-5ccc9f36bb2b",
+  "appDisplayName": "ANZUI",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "60001bc0-9251-ec24-b6ab-b730867935d6",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}
