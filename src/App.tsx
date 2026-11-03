@@ -1,18 +1,44 @@
+import {
+  HashRouter,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
-import './App.css'
-import SideBar from './components/SideBar'
-import TopBar from './components/TopBar'
+import AppLayout from "./components/AppLayout";
+
+import HomePage from "./pages/HomePage";
+import AddClaimsPage from "./pages/AddClaimsPage";
+import ReconPage from "./pages/ReconPage";
+import MasterPage from "./pages/MasterPage";
+import ExceptionsPage from "./pages/ExceptionsPage";
+import ReportsPage from "./pages/ReportsPage";
+import ApprovalsPage from "./pages/ApprovalsPage";
+import AuditLogPage from "./pages/AuditLogPage";
 
 function App() {
-
-
   return (
-    <>
-     <h1>sample development</h1>
-     <TopBar/>
-     <SideBar/>
-    </>
-  )
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />}>
+
+          <Route index element={<Navigate to="/home" replace />} />
+
+          <Route path="home" element={<HomePage />} />
+          <Route path="add-claims" element={<AddClaimsPage />} />
+          <Route path="recon" element={<ReconPage />} />
+          <Route path="master" element={<MasterPage />} />
+          <Route path="exceptions" element={<ExceptionsPage />} />
+          <Route path="reports" element={<ReportsPage />} />
+          <Route path="approvals" element={<ApprovalsPage />} />
+          <Route path="audit-log" element={<AuditLogPage />} />
+
+          <Route path="*" element={<Navigate to="/home" replace />} />
+
+        </Route>
+      </Routes>
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
