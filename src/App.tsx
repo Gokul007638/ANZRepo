@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <h1>sample</h1>
+     <h1>sample development</h1>
     </>
   )
 }
