@@ -5,7 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import AppLayout from "./components/AppLayout";
+import AppLayout from "./components/layout/AppLayout";
 
 import HomePage from "./pages/HomePage";
 import AddClaimsPage from "./pages/AddClaimsPage";

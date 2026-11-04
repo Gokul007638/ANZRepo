@@ -16,7 +16,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 import { getContext } from "@microsoft/power-apps/app";
 
-import DrlIcon from "../assets/DrlIcon";
+import DrlIcon from "../../assets/DrlIcon";
 
 interface TopbarProps {
   onMenuClick: () => void;

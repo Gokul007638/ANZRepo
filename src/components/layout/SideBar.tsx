@@ -10,14 +10,14 @@ import {
 
 import { NavLink } from "react-router-dom";
 
-import HomeIcon from "../assets/HomeIcon";
-import AddClaimsIcon from "../assets/AddClaimsIcon";
-import ReconIcon from "../assets/ReconIcon";
-import ExceptionsIcon from "../assets/ExceptionsIcon";
-import ReportsIcon from "../assets/ReportsIcon";
-import ApprovalsIcon from "../assets/ApprovalsIcon";
-import AuditLogIcon from "../assets/AuditLogIcon";
-import MasterIcon from "../assets/MasterIcon";
+import HomeIcon from "../../assets/HomeIcon";
+import AddClaimsIcon from "../../assets/AddClaimsIcon";
+import ReconIcon from "../../assets/ReconIcon";
+import ExceptionsIcon from "../../assets/ExceptionsIcon";
+import ReportsIcon from "../../assets/ReportsIcon";
+import ApprovalsIcon from "../../assets/ApprovalsIcon";
+import AuditLogIcon from "../../assets/AuditLogIcon";
+import MasterIcon from "../../assets/MasterIcon";
 
 interface SidebarProps {
   mobileOpen: boolean;
