@@ -12,14 +12,14 @@ function HomeIcon() {
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke="#ABABAB"
+        stroke="currentColor"
       />
       <path
         d="M9 22V12H15V22"
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
-        stroke="#ABABAB"
+        stroke="currentColor"
       />
     </svg>
   );

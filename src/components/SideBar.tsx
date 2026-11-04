@@ -17,6 +17,7 @@ import ExceptionsIcon from "../assets/ExceptionsIcon";
 import ReportsIcon from "../assets/ReportsIcon";
 import ApprovalsIcon from "../assets/ApprovalsIcon";
 import AuditLogIcon from "../assets/AuditLogIcon";
+import MasterIcon from "../assets/MasterIcon";
 
 interface SidebarProps {
   mobileOpen: boolean;
@@ -44,32 +45,7 @@ const menuItems = [
   {
     label: "Master",
     path: "/master",
-    icon: (
-      <Box
-        sx={{
-          width: 22,
-          height: 22,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <svg
-          width="22"
-          height="22"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.7"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <ellipse cx="12" cy="5" rx="8" ry="3" />
-          <path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5" />
-          <path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" />
-        </svg>
-      </Box>
-    ),
+    icon: <MasterIcon/>
   },
   {
     label: "Exceptions",
@@ -212,7 +188,7 @@ function Sidebar({
               "&.active": {
                 backgroundColor: "#f3eaff",
 
-                color: "#6500ed",
+                color: "#6900EF",
 
                 "&::before": {
                   opacity: 1,
